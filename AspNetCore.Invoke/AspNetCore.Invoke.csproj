@@ -2,6 +2,15 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Authors>Luke Vo</Authors>
+    <Description>A small utility for invoking service/logic code in ASP.NET Core API with support for Exception throwing flow.</Description>
+    <Copyright>Copyright © Luke Vo 2018</Copyright>
+    <PackageLicenseUrl>https://github.com/datvm/AspNetCore.Invoke/blob/master/LICENSE.MD</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/datvm/AspNetCore.Invoke</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/datvm/AspNetCore.Invoke</RepositoryUrl>
+    <PackageTags>aspnet core invoke service utility</PackageTags>
+    <PackageReleaseNotes>https://github.com/datvm/AspNetCore.Invoke/releases</PackageReleaseNotes>
   </PropertyGroup>
 
   <ItemGroup>
